@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "Singlet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesginPatternsDemo", "DesginPatternsDemo\DesginPatternsDemo.csproj", "{C0717B0D-32C4-4B4C-AC78-A850FFB55074}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{DC176C5E-8702-40CA-9ECF-673AA0113849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C0717B0D-32C4-4B4C-AC78-A850FFB55074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0717B0D-32C4-4B4C-AC78-A850FFB55074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0717B0D-32C4-4B4C-AC78-A850FFB55074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC176C5E-8702-40CA-9ECF-673AA0113849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC176C5E-8702-40CA-9ECF-673AA0113849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC176C5E-8702-40CA-9ECF-673AA0113849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC176C5E-8702-40CA-9ECF-673AA0113849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
