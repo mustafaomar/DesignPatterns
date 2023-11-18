@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{DE4269C4-EF1A-4CCE-A5BE-B0660DEAEF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{B722C4E8-BA1E-4AAF-B86D-C0E401AF70F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE4269C4-EF1A-4CCE-A5BE-B0660DEAEF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4269C4-EF1A-4CCE-A5BE-B0660DEAEF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4269C4-EF1A-4CCE-A5BE-B0660DEAEF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4269C4-EF1A-4CCE-A5BE-B0660DEAEF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B722C4E8-BA1E-4AAF-B86D-C0E401AF70F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B722C4E8-BA1E-4AAF-B86D-C0E401AF70F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B722C4E8-BA1E-4AAF-B86D-C0E401AF70F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B722C4E8-BA1E-4AAF-B86D-C0E401AF70F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
