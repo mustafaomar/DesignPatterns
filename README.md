@@ -22,8 +22,6 @@ The Singleton pattern is implemented in this project to ensure that only one ins
 - **Hardware Interface Access:** Suitable for managing access to hardware interfaces like printers or file systems, where single access point is desired.
 
 
----
-
 ## 2) Factory Pattern 
 
 ### Implementation Overview
@@ -48,10 +46,6 @@ The Factory Pattern is implemented in this project to demonstrate an effective w
 - **UI Libraries:** In GUI development, to create different types of elements (like buttons, windows, etc.) based on user actions or application state.
 
 
-Absolutely, here's a formatted section for your `README.md` file that covers the Observer Pattern implementation, its advantages, disadvantages, and use cases. You can copy and paste this directly into your `README.md`.
-
----
-
 ## 3) Observer Pattern
 
 ### Implementation Overview
@@ -73,3 +67,25 @@ The Observer Pattern in this project is structured around a `Subject` (ConcreteS
 - **Data Monitoring:** Ideal for monitoring systems where changes in monitored data (like stock prices) trigger updates in different viewers.
 - **Event Handling Systems:** In event management and handling systems, where events trigger multiple actions or reactions.
 - **Publish/Subscribe Systems:** In scenarios where subscribers need to be notified about changes or updates, like in a news feed or notification system.
+
+## 4) Strategy Pattern
+
+### Implementation Overview
+The Strategy Pattern in this project demonstrates a flexible approach to selecting an algorithm at runtime. The pattern is implemented with:
+- **Strategy Interface (`IStrategy`):** This interface declares a method that all concrete strategies must implement.
+- **Concrete Strategies (`ConcreteStrategyA`, `ConcreteStrategyB`):** These classes implement the `IStrategy` interface, each providing a specific algorithm or behavior.
+- **Context Class (`Context`):** This class maintains a reference to a strategy object and delegates the work to the currently linked strategy object. The context class allows changing the strategy object at runtime.
+
+### Pros and Cons
+
+| Pros | Cons |
+| ---- | ---- |
+| Enables the dynamic exchange of algorithms at runtime. | Can increase the number of objects/classes in the system. |
+| Promotes loose coupling between the objects and the algorithms they use. | Requires clients to be aware of the differences between strategies to select the appropriate one. |
+| Simplifies unit testing, as each strategy can be tested separately. | Can complicate the code structure if not well-organized or if overused for simple scenarios. |
+
+### Beneficial Use Cases
+- **Sorting Algorithms:** Useful in scenarios where different sorting strategies might be needed depending on the data context.
+- **Payment Processing:** Allows choosing different payment methods (credit card, PayPal, etc.) dynamically.
+- **Navigation Services:** In navigation apps, selecting different route calculation algorithms based on criteria like fastest, shortest, or least traffic.
+- **Discount Strategies:** For e-commerce platforms, applying different discount algorithms based on user profiles, seasons, or promotions.

@@ -3,12 +3,14 @@
 using FactoryPattern;
 using ObserverPattern;
 using SingletonPattern;
+using StrategyPattern;
 
 // the start of everything beautiful !!
 Console.WriteLine("Hello, World!");
 ShowSingletonUsage();
 ShowFactoryUsage();
 ShowObserverUsage();
+ShowStrategyUsage();
 return;
 
 
@@ -75,4 +77,21 @@ void ShowObserverUsage()
     // Detach an observer and show that it no longer receives updates
     subject.Detach(observerA);
     subject.SomeBusinessLogic();
+}
+
+void ShowStrategyUsage()
+{
+    Console.WriteLine("Strategy Pattern Demonstration");
+
+    // Creating context with a specific strategy
+    var context = new Context(new ConcreteStrategyA());
+    Console.WriteLine("Client: Strategy is set to normal sorting.");
+    context.ExecuteStrategy();
+
+    Console.WriteLine();
+
+    // Changing strategy to another type
+    Console.WriteLine("Client: Strategy is set to reverse sorting.");
+    context.SetStrategy(new ConcreteStrategyB());
+    context.ExecuteStrategy();
 }
