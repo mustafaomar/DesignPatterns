@@ -1,9 +1,6 @@
-/.idea/
-/DesignPatterns/bin/
-/DesignPatterns/obj/
-/SingletonPattern/bin/
-/SingletonPattern/obj/
-/DesginPatternsDemo/obj/
-/DesginPatternsDemo/bin/
-/FactoryPattern/bin/
-/FactoryPattern/obj/
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# General rule for ignoring bin and obj folders
+**/bin/
+**/obj/

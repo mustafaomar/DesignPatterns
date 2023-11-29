@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesginPatternsDemo", "Desgi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{DC176C5E-8702-40CA-9ECF-673AA0113849}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{D5067670-9093-48B0-B492-A7FDE0ED0E73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{DC176C5E-8702-40CA-9ECF-673AA0113849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC176C5E-8702-40CA-9ECF-673AA0113849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC176C5E-8702-40CA-9ECF-673AA0113849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5067670-9093-48B0-B492-A7FDE0ED0E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5067670-9093-48B0-B492-A7FDE0ED0E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5067670-9093-48B0-B492-A7FDE0ED0E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5067670-9093-48B0-B492-A7FDE0ED0E73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

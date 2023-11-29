@@ -1,12 +1,14 @@
 // See https://aka.ms/new-console-template for more information
 
 using FactoryPattern;
+using ObserverPattern;
 using SingletonPattern;
 
 // the start of everything beautiful !!
 Console.WriteLine("Hello, World!");
 ShowSingletonUsage();
 ShowFactoryUsage();
+ShowObserverUsage();
 return;
 
 
@@ -50,4 +52,27 @@ void ShowFactoryUsage()
 
     IProduct productB = creatorB.FactoryMethod();
     Console.WriteLine("Created: " + productB.Operation());
+}
+
+void ShowObserverUsage()
+{
+    Console.WriteLine("Observer Pattern Demonstration");
+
+    // Create subject
+    var subject = new ConcreteSubject();
+
+    // Create and attach observers
+    var observerA = new ConcreteObserverA();
+    subject.Attach(observerA);
+
+    var observerB = new ConcreteObserverB();
+    subject.Attach(observerB);
+
+    // Perform some business logic in the subject
+    subject.SomeBusinessLogic();
+    subject.SomeBusinessLogic();
+
+    // Detach an observer and show that it no longer receives updates
+    subject.Detach(observerA);
+    subject.SomeBusinessLogic();
 }
